@@ -7,59 +7,64 @@ export default function Home() {
         <Sidebar />
         <div className="animate-in">
           <section>
-            <p className="text-base leading-relaxed mb-4">
-              I&apos;m currently exploring computer vision projects at Oxford.
-            </p>
             <p className="text-base leading-relaxed mb-2">
-              Previously, I was the second hire at Letta, a research company
-              focused on memory AI agents. I was involved in many parts of the
-              stack:
+              I was the second hire at Letta, a research company focused on
+              memory for AI agents. I contributed to and lead several efforts:
             </p>
             <ul className="text-base leading-relaxed mb-4 ml-6 space-y-1">
               <li>
-                • Building a stateful agent cloud to support{" "}
+                • Building a stateful agent API to support a million agents{" "}
                 <a
                   href="https://www.letta.com/case-studies/bilt"
                   className="text-[#002FA7] hover:opacity-80"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  a million agents
+                  [blog]
                 </a>
               </li>
               <li>
-                • Giving agents the ability to search over large{" "}
+                • Giving agents the ability to search over large file systems in
+                the cloud{" "}
                 <a
                   href="https://www.letta.com/blog/letta-filesystem"
                   className="text-[#002FA7] hover:opacity-80"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  file systems
-                </a>
+                  [blog]
+                </a>{" "}
               </li>
               <li>
-                •{" "}
+                • Designed Letta Evals OSS, an evals package designed for
+                stateful agents{" "}
                 <a
                   href="https://www.letta.com/blog/letta-evals"
                   className="text-[#002FA7] hover:opacity-80"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Evals
+                  [blog]
                 </a>
-                , synthetic data, and RL environments
               </li>
               <li>
-                • Designing benchmarks like{" "}
+                • Designing benchmarks like Context-Bench{" "}
                 <a
                   href="https://www.letta.com/blog/context-bench"
                   className="text-[#002FA7] hover:opacity-80"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Context-Bench
-                </a>
+                  [blog]
+                </a>{" "}
+                <a
+                  href="https://x.com/charlespacker/status/1983987055513534903?s=20"
+                  className="text-[#002FA7] hover:opacity-80"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  [post]
+                </a>{" "}
               </li>
             </ul>
             <p className="text-base leading-relaxed mb-4">
