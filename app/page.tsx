@@ -7,78 +7,100 @@ export default function Home() {
         <Sidebar />
         <div className="animate-in">
           <section>
+            <p className="text-base leading-relaxed mb-4">
+              I&apos;m currently a graduate researcher at the University of
+              Cambridge, working on articulated 3D generation and
+              simulation-ready assets.
+            </p>
             <p className="text-base leading-relaxed mb-2">
-              I was the second hire at Letta, a research company focused on
-              memory for AI agents. I contributed to and lead several efforts:
+              Recently, I&apos;ve worked on:
             </p>
             <ul className="text-base leading-relaxed mb-4 ml-6 space-y-1">
               <li>
-                • Building a stateful agent API to support a million agents{" "}
+                • Articraft, an agentic system that generates articulated 3D
+                assets from object descriptions{" "}
                 <a
-                  href="https://www.letta.com/case-studies/bilt"
+                  href="https://articraft3d.github.io/"
                   className="text-[#002FA7] hover:opacity-80"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  [case study]
+                  [project]
+                </a>{" "}
+                <a
+                  href="https://github.com/mattzh72/articraft"
+                  className="text-[#002FA7] hover:opacity-80"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  [code]
                 </a>
               </li>
               <li>
-                • Giving agents the ability to search over large file systems in
-                the cloud{" "}
+                • Instruct-Particulate, a model for inferring articulated
+                structure, part segmentation, and joint motion parameters from
+                static 3D meshes{" "}
                 <a
-                  href="https://www.letta.com/blog/letta-filesystem"
+                  href="https://instruct-particulate.github.io/"
                   className="text-[#002FA7] hover:opacity-80"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  [writeup]
-                </a>{" "}
-              </li>
-              <li>
-                • Designed Letta Evals OSS, an evals package designed for
-                stateful agents{" "}
-                <a
-                  href="https://www.letta.com/blog/letta-evals"
-                  className="text-[#002FA7] hover:opacity-80"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  [writeup]
+                  [project]
                 </a>
-              </li>
-              <li>
-                • Designing benchmarks like Context-Bench{" "}
-                <a
-                  href="https://www.letta.com/blog/context-bench"
-                  className="text-[#002FA7] hover:opacity-80"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  [writeup]
-                </a>{" "}
-                <a
-                  href="https://x.com/charlespacker/status/1983987055513534903?s=20"
-                  className="text-[#002FA7] hover:opacity-80"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  [post]
-                </a>{" "}
               </li>
             </ul>
             <p className="text-base leading-relaxed mb-4">
-              Before that, I was an engineer at Databricks, working on systems
-              and deployment. During this time, I also was working on{" "}
+              Before that, I was the second hire at Letta, working on memory,
+              continual learning, evals, and early cloud-based general agents:{" "}
               <a
-                href="https://ai.stanford.edu/~yzzhang/projects/scene-language/"
+                href="https://www.letta.com/blog/letta-filesystem"
                 className="text-[#002FA7] hover:opacity-80"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                generative 3D models
+                Letta Filesystem
+              </a>
+              ,{" "}
+              <a
+                href="https://www.letta.com/blog/letta-evals"
+                className="text-[#002FA7] hover:opacity-80"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Letta Evals
+              </a>
+              ,{" "}
+              <a
+                href="https://www.letta.com/blog/context-bench"
+                className="text-[#002FA7] hover:opacity-80"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Context-Bench
               </a>{" "}
-              at Stanford.
+              <a
+                href="https://x.com/charlespacker/status/1983987055513534903?s=20"
+                className="text-[#002FA7] hover:opacity-80"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                [post]
+              </a>
+              , and persistent-agent infrastructure{" "}
+              <a
+                href="https://www.letta.com/case-studies/bilt"
+                className="text-[#002FA7] hover:opacity-80"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                [case study]
+              </a>
+              .
+            </p>
+            <p className="text-base leading-relaxed mb-4">
+              Earlier, I was an engineer at Databricks, working on systems and
+              deployment.
             </p>
             <p className="text-base leading-relaxed mb-4">
               I studied at Berkeley.
