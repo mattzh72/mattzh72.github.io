@@ -1,60 +1,66 @@
 import Sidebar from "@/components/Sidebar";
 
 export default function Home() {
+  const linkClass = "text-[#002FA7] hover:opacity-80 transition-opacity";
+
   return (
     <div className="min-h-screen bg-white">
       <div className="w-full max-w-2xl mx-auto px-6 pt-40">
         <Sidebar />
         <div className="animate-in">
-          <section>
-            <p className="text-base leading-relaxed mb-4">
+          <section className="text-[15px] leading-7 text-[rgb(105,105,105)] sm:text-base sm:leading-8">
+            <p className="mb-6 max-w-[68ch]">
               I&apos;m currently a graduate researcher at the University of
               Cambridge, working on articulated 3D generation and
               simulation-ready assets.
             </p>
-            <p className="text-base leading-relaxed mb-2">
+            <p className="mb-3">
               Recently, I&apos;ve worked on:
             </p>
-            <ul className="text-base leading-relaxed mb-4 ml-6 space-y-1">
-              <li>
-                •{" "}
+            <dl className="mb-7 grid gap-y-4 border-l border-neutral-200 pl-4 sm:grid-cols-[11rem_1fr] sm:gap-x-7 sm:border-l-0 sm:pl-0">
+              <dt className="leading-7 sm:leading-8">
                 <a
                   href="https://articraft3d.github.io/"
-                  className="text-[#002FA7] hover:opacity-80"
+                  className={linkClass}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   Articraft
-                </a>, an agentic system that generates articulated 3D assets
-                from object descriptions{" "}
+                </a>{" "}
                 <a
                   href="https://github.com/mattzh72/articraft"
-                  className="text-[#002FA7] hover:opacity-80"
+                  className={linkClass}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   [code]
                 </a>
-              </li>
-              <li>
-                •{" "}
+              </dt>
+              <dd className="max-w-[48ch]">
+                an agentic system that generates articulated 3D assets from
+                object descriptions
+              </dd>
+              <dt className="leading-7 sm:leading-8">
                 <a
                   href="https://instruct-particulate.github.io/"
-                  className="text-[#002FA7] hover:opacity-80"
+                  className={linkClass}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   Instruct-Particulate
-                </a>, a model for inferring articulated structure, part
-                segmentation, and joint motion parameters from static 3D meshes
-              </li>
-            </ul>
-            <p className="text-base leading-relaxed mb-4">
+                </a>
+              </dt>
+              <dd className="max-w-[48ch]">
+                a model for inferring articulated structure, part segmentation,
+                and joint motion parameters from static 3D meshes
+              </dd>
+            </dl>
+            <p className="mb-6 max-w-[68ch]">
               Before that, I was the second hire at Letta, working on memory,
               continual learning, evals, and early cloud-based general agents:{" "}
               <a
                 href="https://www.letta.com/blog/letta-evals"
-                className="text-[#002FA7] hover:opacity-80"
+                className={linkClass}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -62,7 +68,7 @@ export default function Home() {
               </a>,{" "}
               <a
                 href="https://www.letta.com/blog/context-bench"
-                className="text-[#002FA7] hover:opacity-80"
+                className={linkClass}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -70,24 +76,24 @@ export default function Home() {
               </a>, and a{" "}
               <a
                 href="https://www.letta.com/case-studies/bilt"
-                className="text-[#002FA7] hover:opacity-80"
+                className={linkClass}
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 million-agent-scale powered rewards system for Bilt
               </a>.
             </p>
-            <p className="text-base leading-relaxed mb-4">
+            <p className="mb-6 max-w-[68ch]">
               Earlier, I was an engineer at Databricks, working on systems and
               deployment.
             </p>
-            <p className="text-base leading-relaxed mb-4">
+            <p className="mb-6 max-w-[68ch]">
               I studied at Berkeley.
             </p>
             <p className="text-xs text-neutral-500 mt-8 text-right">
               <a
                 href="https://x.com/Mattzh1314"
-                className="text-[#002FA7] hover:opacity-80"
+                className={linkClass}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -96,7 +102,7 @@ export default function Home() {
               <span className="text-neutral-900 mx-2">•</span>
               <a
                 href="https://www.instagram.com/mattzh1314/"
-                className="text-[#002FA7] hover:opacity-80"
+                className={linkClass}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -105,7 +111,7 @@ export default function Home() {
               <span className="text-neutral-900 mx-2">•</span>
               <a
                 href="mailto:mattzh1314@gmail.com"
-                className="text-[#002FA7] hover:opacity-80"
+                className={linkClass}
               >
                 Email
               </a>
