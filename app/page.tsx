@@ -8,39 +8,39 @@ export default function Home() {
       <div className="w-full max-w-2xl mx-auto px-6 pt-40">
         <Sidebar />
         <div className="animate-in">
-          <section className="text-[15px] leading-7 text-[rgb(105,105,105)] sm:text-base sm:leading-8">
-            <p className="mb-6 max-w-[68ch]">
+          <section>
+            <p className="text-base leading-relaxed mb-4">
               I&apos;m currently a graduate researcher at the University of
               Cambridge, working on articulated 3D generation and
               simulation-ready assets.
             </p>
-            <p className="mb-3">
+            <p className="text-base leading-relaxed mb-2">
               Recently, I&apos;ve worked on:
             </p>
-            <dl className="mb-7 grid gap-y-4 border-l border-neutral-200 pl-4 sm:grid-cols-[11rem_1fr] sm:gap-x-7 sm:border-l-0 sm:pl-0">
-              <dt className="leading-7 sm:leading-8">
-                <a
-                  href="https://articraft3d.github.io/"
-                  className={linkClass}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Articraft
-                </a>{" "}
-                <a
-                  href="https://github.com/mattzh72/articraft"
-                  className={linkClass}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  [code]
-                </a>
-              </dt>
-              <dd className="max-w-[48ch]">
-                an agentic system that generates articulated 3D assets from
+            <ul className="list-disc text-base leading-relaxed mb-4 ml-6 space-y-1">
+              <li>
+                <span className="whitespace-nowrap">
+                  <a
+                    href="https://articraft3d.github.io/"
+                    className={linkClass}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Articraft
+                  </a>{" "}
+                  <a
+                    href="https://github.com/mattzh72/articraft"
+                    className={linkClass}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    [code]
+                  </a>
+                </span>
+                , an agentic system that generates articulated 3D assets from
                 object descriptions
-              </dd>
-              <dt className="leading-7 sm:leading-8">
+              </li>
+              <li>
                 <a
                   href="https://instruct-particulate.github.io/"
                   className={linkClass}
@@ -49,13 +49,11 @@ export default function Home() {
                 >
                   Instruct-Particulate
                 </a>
-              </dt>
-              <dd className="max-w-[48ch]">
-                a model for inferring articulated structure, part segmentation,
-                and joint motion parameters from static 3D meshes
-              </dd>
-            </dl>
-            <p className="mb-6 max-w-[68ch]">
+                , a model for inferring articulated structure, part
+                segmentation, and joint motion parameters from static 3D meshes
+              </li>
+            </ul>
+            <p className="text-base leading-relaxed mb-4">
               Before that, I was the second hire at Letta, working on memory,
               continual learning, evals, and early cloud-based general agents:{" "}
               <a
@@ -83,11 +81,11 @@ export default function Home() {
                 million-agent-scale powered rewards system for Bilt
               </a>.
             </p>
-            <p className="mb-6 max-w-[68ch]">
+            <p className="text-base leading-relaxed mb-4">
               Earlier, I was an engineer at Databricks, working on systems and
               deployment.
             </p>
-            <p className="mb-6 max-w-[68ch]">
+            <p className="text-base leading-relaxed mb-4">
               I studied at Berkeley.
             </p>
             <p className="text-xs text-neutral-500 mt-8 text-right">
