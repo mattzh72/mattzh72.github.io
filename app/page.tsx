@@ -20,7 +20,7 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  [blog]
+                  [case study]
                 </a>
               </li>
               <li>
@@ -32,7 +32,7 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  [blog]
+                  [writeup]
                 </a>{" "}
               </li>
               <li>
@@ -44,7 +44,7 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  [blog]
+                  [writeup]
                 </a>
               </li>
               <li>
@@ -55,7 +55,7 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  [blog]
+                  [writeup]
                 </a>{" "}
                 <a
                   href="https://x.com/charlespacker/status/1983987055513534903?s=20"
